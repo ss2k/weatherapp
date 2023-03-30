@@ -15,4 +15,5 @@ You also need to create an **.env** file and paste in the API key from OpenWeath
 
 ## Running Tests
 There are Rspec tests, you can run them by running:
+    
     rspec .
