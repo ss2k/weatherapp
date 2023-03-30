@@ -3,10 +3,7 @@ import * as ReactDOM from 'react-dom'
 import Search from './Search'
 
 const App = ({arg}) => {
-    return (<div>
-        Welcome to Weather App
-        <Search />
-    </div>)
+    return (<Search />)
 }
 
 document.addEventListener("DOMContentLoaded", () => {
