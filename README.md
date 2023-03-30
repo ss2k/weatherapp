@@ -12,3 +12,7 @@ You can install it and run it by doing the following commands:
     rake db:create && rake db:migrate
     bin/dev
 You also need to create an **.env** file and paste in the API key from OpenWeatherMap.
+
+## Running Tests
+There are Rspec tests, you can run them by running:
+    rspec .
